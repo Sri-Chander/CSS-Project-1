@@ -50,7 +50,7 @@ a{
     padding:0;
 }
 
-/*INtRODUCTION*/
+/*INTRODUCTION*/
 .introduction{
     display: flex;
     align-items: center;
@@ -91,10 +91,111 @@ a{
 
 .introduction input[type='text']{
     height: 20vh;
-    width: 20vw;
+    width: 30vw;
     text-align: center;
 }
+
+/*INFORMATION*/
+.information{
+    text-align: center;
+    margin-bottom: 48px;
+    height: 45vh;
+}
+
+.title{
+    padding: 48px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information .centering-div{
+    max-width: 70vw;
+    margin:auto;
+    gap: 48px;
+
+}
+.text{
+    width: 20vh;
+}
+.card img{
+    height: 20vh;
+    width: 20vh;
+    border-style: solid;
+    border-radius: 14px;
+}
+
+
+/*TESTIMONY*/
+.testimony{
+    background-color: #E5E7EB;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimony .centering-div{
+    max-width: 60vw;
+    
+    align-items: baseline;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.statement{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+.stator{
+    flex-shrink:0;
+    max-width:70vw;
+    margin-left: auto;
+    font-weight: 900;
+}
+
+/*SIGNUP*/
+.signup{
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signup .centering-div{
+    padding: 32px;
+    gap: 32px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color:#E5E7EB;
+}
+
+.heading{
+    font-size: larger;
+    font-weight: 900;
+    
+}
+
+.signup button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 900;
+    padding: 6px 10px;
+    margin:0;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-radius: 4px;
+}
+
 /*FOOTER*/
 .footer{
+    height: 5vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
     margin-top: auto;
 }
